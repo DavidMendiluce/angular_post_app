@@ -1,0 +1,33 @@
+h1 {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1vh;
+  font-weight: 400;
+}
+
+
+.bolsasBtn {
+  width: 10vh;
+  height: 3vh;
+}
+
+main {
+margin-top: 3vh;
+width: 78%;
+margin: 1vh auto;
+}
+
+.mat-card {
+  margin-top: 3vh;
+  width: 80%;
+  margin: 1vh auto;
+  }
+
+  .mat-expansion-panel {
+    margin: 1vh 1vh;
+  }
+
+.bolsasContainer {
+  display: none;
+}

@@ -1,0 +1,10 @@
+<app-header></app-header>
+<main>
+  <router-outlet></router-outlet>
+  <button class="bolsasBtn" (click)="showBolsas()">Muestrame la comida</button>
+  <div class="bolsasContainer" *ngFor="let bolsa of bolsas" >
+    <p>{{bolsa.tipo}}</p>
+    <p>{{bolsa.precio}}</p>
+  </div>
+</main>
+<router-outlet></router-outlet>

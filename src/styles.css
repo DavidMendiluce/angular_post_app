@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+main {
+  margin-top: 3vh;
+  width: 80%;
+  margin: 1vh auto;
+  }
+
+  .mat-card {
+    margin-top: 3vh;
+    width: 80%;
+    margin: 1vh auto;
+    }
+
+    .mat-expansion-panel {
+      margin: 1vh 1vh !important;
+  }
+app-post-list {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
